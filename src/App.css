@@ -1,0 +1,13 @@
+main {
+  background-color: #ffffff;
+  width: 600px;
+  height: 500px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 7px;
+}
+@media (max-width: 600px) {
+  main {
+    max-width: 350px;
+  }
+}

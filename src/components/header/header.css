@@ -1,0 +1,39 @@
+:root {
+  --text-color: #9b9cb3;
+  --checked-color: #ed7273;
+  --todolis-color: #82829c;
+  --purple-color: #666afb;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 15px 20px;
+  border-bottom: 1px solid var(--text-color);
+  background-color: #fefeff;
+}
+
+.date .day {
+  font-size: 2rem;
+  color: #666afb;
+  font-weight: 500;
+}
+.day span {
+  font-weight: 300;
+}
+.date .month {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+.task-num {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+.task-num .task-num-num {
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+}

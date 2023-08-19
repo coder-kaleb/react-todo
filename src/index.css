@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(87deg, #ed7273, #575ae0);
+}
+@media screen and (max-width: 600px) {
+  body {
+    background: #ff4242;
+  }
+}
